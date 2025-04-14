@@ -1,0 +1,14 @@
+prefix=/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/apple-ios-arm64e/freetype
+exec_prefix=/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/apple-ios-arm64e/freetype
+libdir=/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/apple-ios-arm64e/freetype/lib
+includedir=/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/apple-ios-arm64e/freetype/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 25.0.19
+Requires: zlib
+Requires.private: 
+Libs: -L/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/apple-ios-arm64e/freetype/lib -lfreetype -L/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/apple-ios-arm64e/libpng/lib
+Libs.private: 
+Cflags: -I${includedir}/freetype2
