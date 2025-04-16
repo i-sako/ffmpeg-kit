@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/i-sako/ffmpeg-kit.git', :tag => s.version.to_s }
 
   s.platform         = :ios, '11.0'
-  s.vendored_frameworks = 'ffmpeg-kit.xcframework'
 
   s.requires_arc     = true
 end
