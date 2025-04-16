@@ -1,0 +1,14 @@
+prefix=/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/android-x86_64/ffmpeg
+exec_prefix=${prefix}
+libdir=/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/android-x86_64/ffmpeg/lib
+includedir=/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/android-x86_64/ffmpeg/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 60.3.100
+Requires: 
+Requires.private: libavcodec >= 60.3.100, libswresample >= 4.10.100, libavutil >= 58.2.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -lm -latomic -L/Users/isamusakou/Library/Android/sdk/ndk/29.0.13113456/platforms/android-24/arch-x86_64/usr/lib -lz
+Cflags: -I${includedir}

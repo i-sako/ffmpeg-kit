@@ -1,0 +1,14 @@
+prefix=/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/android-arm64/freetype
+exec_prefix=/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/android-arm64/freetype
+libdir=/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/android-arm64/freetype/lib
+includedir=/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/android-arm64/freetype/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 25.0.19
+Requires: zlib
+Requires.private: 
+Libs: -L/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/android-arm64/freetype/lib -lfreetype -L/Users/isamusakou/Documents/work/ffmpeg-kit/prebuilt/android-arm64/libpng/lib
+Libs.private: 
+Cflags: -I${includedir}/freetype2
