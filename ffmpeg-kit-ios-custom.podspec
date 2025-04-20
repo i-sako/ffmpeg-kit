@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.1'
   s.requires_arc     = true
   
-  s.source           = { :http => 'https://github.com/Nisarg-18/ffmpeg-kit/releases/download/v6.0.3/ffmpeg-kit-full-6.0.3-ios-framework.zip' }
+  s.source           = { :http => 'https://github.com/i-sako/ffmpeg-kit/releases/download/v6.0.3/bundle-apple-xcframework-ios-lts.zip' }
   
   s.libraries        = [
     'z',
