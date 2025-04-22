@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ffmpeg-kit-ios-custom'
-  s.version          = '6.0.3'
+  s.version          = 'v6.0.3'
   s.summary          = 'Custom FFmpeg Kit for iOS'
   s.description      = 'Custom FFmpeg Kit iOS library with all necessary components enabled: dav1d, fontconfig, freetype, fribidi, gmp, gnutls, kvazaar, lame, libass, libilbc, libtheora, libvorbis, libvpx, libwebp, zimg, libxml2, opencore-amr, opus, shine, snappy, soxr, speex, twolame and vo-amrwbenc.'
   s.homepage         = 'https://github.com/Nisarg-18/ffmpeg-kit'
