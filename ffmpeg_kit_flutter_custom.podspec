@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'ffmpeg-kit-ios-custom'
+  s.name             = 'ffmpeg_kit_flutter_custom'
   s.version          = '6.0.3'
   s.summary          = 'Custom FFmpeg Kit for iOS'
   s.description      = 'Custom FFmpeg Kit iOS library with all necessary components enabled: dav1d, fontconfig, freetype, fribidi, gmp, gnutls, kvazaar, lame, libass, libilbc, libtheora, libvorbis, libvpx, libwebp, zimg, libxml2, opencore-amr, opus, shine, snappy, soxr, speex, twolame and vo-amrwbenc.'
